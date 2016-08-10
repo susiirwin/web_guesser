@@ -21,6 +21,6 @@ def check_guess(guess)
   elsif guess < SECRET_NUMBER
     message = "Too Low!"
   else
-
+    "The SECRET NUMBER is #{SECRET_NUMBER}"
   end
 end
